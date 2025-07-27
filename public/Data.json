@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Chicken Biryani",
+    "description": "Fragrant basmati rice with tender chicken pieces cooked in spices.",
+    "price": 250,
+    "category": "Main Course",
+    "image": "/images/biryani.jpg",
+    "tags": ["spicy", "popular"]
+  },
+  {
+    "id": 2,
+    "name": "Beef Burger",
+    "description": "Juicy beef patty with cheese, lettuce, tomato, and signature sauce.",
+    "price": 180,
+    "category": "Fast Food",
+    "image": "/images/burger.jpg",
+    "tags": ["popular"]
+  },
+  {
+    "id": 3,
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with tomato, mozzarella cheese, and fresh basil.",
+    "price": 300,
+    "category": "Pizza",
+    "image": "/images/pizza.jpg",
+    "tags": []
+  },
+  {
+    "id": 4,
+    "name": "Grilled Chicken Salad",
+    "description": "Healthy salad with grilled chicken, veggies, and vinaigrette.",
+    "price": 220,
+    "category": "Salad",
+    "image": "/images/salad.jpg",
+    "tags": ["healthy"]
+  },
+  {
+    "id": 5,
+    "name": "Cold Coffee",
+    "description": "Chilled coffee with milk and ice cream.",
+    "price": 120,
+    "category": "Drinks",
+    "image": "/images/cold-coffee.jpg",
+    "tags": []
+  },
+  {
+    "id": 6,
+    "name": "Chicken Nuggets (6 pcs)",
+    "description": "Crispy chicken nuggets served with ketchup.",
+    "price": 150,
+    "category": "Snacks",
+    "image": "/images/nuggets.jpg",
+    "tags": ["kids"]
+  },
+  {
+    "id": 7,
+    "name": "Chocolate Cake Slice",
+    "description": "Rich and moist chocolate cake with fudge frosting.",
+    "price": 100,
+    "category": "Dessert",
+    "image": "/images/chocolate-cake.jpg",
+    "tags": ["sweet"]
+  }
+]

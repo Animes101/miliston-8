@@ -1,12 +1,19 @@
 
 import './App.css'
+import LineChart from './Components/LineChart'
+import NavBar from './Components/NavBar'
+import PricesOprion from './Components/PricesOprion'
+
+
 
 function App() {
 
   return (
     <>
       <div>
-        <h1 className='text-green-900'>hello world</h1>
+        <NavBar />
+        <PricesOprion />
+        <LineChart />
       </div>
     </>
   )
