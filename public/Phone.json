@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "brand": "Apple",
+    "model": "iPhone 14 Pro Max",
+    "price": 1499
+  },
+  {
+    "id": 2,
+    "brand": "Samsung",
+    "model": "Galaxy S24 Ultra",
+    "price": 1399
+  },
+  {
+    "id": 3,
+    "brand": "Google",
+    "model": "Pixel 8 Pro",
+    "price": 999
+  },
+  {
+    "id": 4,
+    "brand": "Xiaomi",
+    "model": "Redmi Note 13 Pro",
+    "price": 299
+  },
+  {
+    "id": 5,
+    "brand": "OnePlus",
+    "model": "OnePlus 12",
+    "price": 799
+  },
+  {
+    "id": 6,
+    "brand": "Realme",
+    "model": "Realme GT Neo 6",
+    "price": 399
+  },
+  {
+    "id": 7,
+    "brand": "Infinix",
+    "model": "Infinix Zero 30",
+    "price": 249
+  },
+  {
+    "id": 8,
+    "brand": "Motorola",
+    "model": "Moto Edge 40 Neo",
+    "price": 349
+  },
+  {
+    "id": 9,
+    "brand": "Tecno",
+    "model": "Tecno Spark 20 Pro",
+    "price": 199
+  },
+  {
+    "id": 10,
+    "brand": "Vivo",
+    "model": "Vivo V29",
+    "price": 449
+  }
+]
