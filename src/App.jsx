@@ -19,6 +19,7 @@ const router=createBrowserRouter([
       {
         path:'/',
         element:<Layout />,
+        errorElement:<Page404 />,
         children:[
           {
             path:'/',
@@ -43,11 +44,6 @@ const router=createBrowserRouter([
             path:'login',
             element:<Login />
           },
-          {
-            path:'*',
-            element:<Page404 />
-          }
-
         ]
       }
 ])

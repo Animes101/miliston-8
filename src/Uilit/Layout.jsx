@@ -1,12 +1,14 @@
 import React from 'react'
 import NavBar from '../Uilit/NavBar'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigation } from 'react-router-dom'
 
 const Layout = () => {
+    const navigation=useNavigation();
   return (
     <div>
         <NavBar />
-        <Outlet />
+        {navigation.state === 'loading' ? <p>loaind.........</p> : <Outlet />  }
+        
     </div>
   )
 }
