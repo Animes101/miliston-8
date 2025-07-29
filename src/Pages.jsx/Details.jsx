@@ -19,7 +19,7 @@ const Details = () => {
 
   return (
     <div>
-        <h1 className='text-red-300'>{title}</h1>
+        <h1 className='text-red-500'>{title}</h1>
         <h2>{body}</h2>
         <button onClick={()=>navigate(-1)}>Go Back</button>
         <button onClick={()=>navigate('/home')}>Home </button>
