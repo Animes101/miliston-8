@@ -13,6 +13,7 @@ import Page404 from './Pages.jsx/page404'
 import Layout from './Uilit/Layout';
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Details from './Pages.jsx/Details'
+import Singup from './Pages.jsx/Singup'
 
 
 const router=createBrowserRouter([
@@ -41,9 +42,13 @@ const router=createBrowserRouter([
 
           },
           {
-            path:'login',
+            path:'/login',
             element:<Login />
           },
+          {
+            path:'/singup',
+            element:<Singup />
+          }
         ]
       }
 ])

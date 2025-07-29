@@ -1,8 +1,18 @@
 import React from 'react'
+import Singup from './Singup'
 
 const Home = () => {
+  
+  const handleLogin=(data)=>{
+
+    console.log(data)
+
+
+  }
   return (
-    <div>Home</div>
+    <div>
+      <Singup  title={'Home Login'}  handleForm={handleLogin}/>
+    </div>
   )
 }
 

@@ -23,6 +23,11 @@ const NavBar = () => {
               ? "text-blue-600 font-bold underline"
               : "text-green-600 hover:text-blue-500"
           } to={'/login'}>Login</NavLink>
+          <NavLink className={({ isActive }) =>
+            isActive
+              ? "text-blue-600 font-bold underline"
+              : "text-green-600 hover:text-blue-500"
+          } to={'/singup'}>Singup</NavLink>
     </nav>
   )
 }

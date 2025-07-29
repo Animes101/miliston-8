@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { v4 as uuidv4 } from 'uuid';
 
 
@@ -6,7 +6,7 @@ const Login = () => {
 
   const [users, setUsers]=useState({name:'',email:'', password:''});
   const {name,email,password}=users;
-
+  const searchRef=useRef(null);
 
 
   const handleChange=(e)=>{
@@ -27,12 +27,17 @@ const Login = () => {
     }
 
     console.log(users);
+      console.log(searchRef.current.value)
 
   }
+
+
+
   return (
     <div>
       <h1>Login Form </h1>
       <form className='flex flex-col' onSubmit={handleSubmit} action="">
+        <input type="search" name="" ref={searchRef} id="" />
         <label className='text-white text-3xl font-bold text-center' htmlFor="name">Name</label>
         <input onChange={handleChange} value={name} className='w-[90%] rounded-md text-white text-lg mx-auto' type="text" name="name" id="name" />
         <label className='text-white text-3xl font-bold text-center' htmlFor="">Email</label>
